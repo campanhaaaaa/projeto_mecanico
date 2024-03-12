@@ -1,0 +1,24 @@
+.bg-verde{
+    background-color: rgb(10, 82, 58);
+}
+
+.box-shadow > div:hover{
+    box-shadow: 0px 5px 15px;
+    cursor: pointer;
+}
+
+.list > ul:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:580px){
+    .order{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+        
+}
+
+.navbar-brand{
+    text-align: center;
+}
